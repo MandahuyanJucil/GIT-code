@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-style: italic;
+
+}
+
+:root{
+    /* color */
+    --headercolor:red;
+    --txtcolor:rgb(210, 159, 210);
+    --maincolor:radial-gradient(white,rgb(238, 230, 230),rgb(227, 208, 208));
+    --footercolor:radial-gradient(green,blue,lightblue,);
+
+}
+
+.header{
+    background-color:var(--headercolor) ;
+}
+
+h1,h2{
+    color:var(--txtcolor);
+}
+.main{
+    background-image: var(--maincolor);
+}
+
+.footer{
+   background-color:green ;
+}
